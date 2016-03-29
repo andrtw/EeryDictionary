@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context="com.andrew.examsapp.eerydictionary.EditWordActivity">
+
+	<item
+		android:id="@+id/action_reset_description"
+		android:orderInCategory="100"
+		android:title="@string/action_reset_description_text"
+		app:showAsAction="never"/>
+	<item
+		android:id="@+id/action_reset_examples"
+		android:orderInCategory="200"
+		android:title="@string/action_reset_examples_text"
+		app:showAsAction="never"/>
+
+</menu>

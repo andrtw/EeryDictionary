@@ -1,0 +1,91 @@
+<resources>
+
+	<color name="text_color">#f1f1f1</color>
+	<color name="list_divider">#252426</color>
+	<color name="list_bg">#2F2E30</color>
+	<color name="main_color">#1D939E</color>
+	<color name="counter_bg">#625E62</color>
+	<color name="words_list_bg">#ffcfcfcf</color>
+	<color name="my_radio_color">#b53046</color>
+
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<!-- My Custom Theme -->
+	<style name="EeryTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:windowBackground">@drawable/activity_background</item>
+		<item name="android:buttonStyle">@style/MyButton</item>
+	</style>
+
+
+	<!-- No network availability -->
+	<style name="MessageErr">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">#ffe90000</item>
+		<item name="android:textColor">@color/text_color</item>
+		<item name="android:gravity">center</item>
+		<item name="android:text">@string/network_error_text</item>
+		<item name="android:visibility">gone</item>
+	</style>
+
+	<!-- Custom Button -->
+	<style name="MyButton">
+		<item name="android:background">@drawable/my_button</item>
+		<item name="android:textColor">@color/text_color</item>
+	</style>
+
+	<!-- Box for containing Description and Examples -->
+	<style name="BoxForText">
+		<item name="android:background">@drawable/text_box</item>
+		<item name="android:minHeight">25dp</item>
+	</style>
+
+	<!-- Like button -->
+	<style name="LikeButton">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/like_button</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:paddingLeft">30dp</item>
+		<item name="android:paddingRight">30dp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<!-- Dislike button -->
+	<style name="LikeButton.DislikeButton">
+		<item name="android:background">@drawable/dislike_button</item>
+	</style>
+
+	<!-- Bars below the like and dislike buttons -->
+	<style name="AppreciationBar">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">0</item>
+		<item name="android:layout_height">3dp</item>
+	</style>
+
+	<style name="MyRadioLeft" parent="android:Widget.CompoundButton.RadioButton">
+		<item name="android:button">@null</item>
+		<item name="android:background">@drawable/left_radio_background</item>
+		<item name="android:textColor">@color/text_color</item>
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center</item>
+		<item name="android:paddingLeft">7dp</item>
+		<item name="android:paddingRight">0dp</item>
+	</style>
+
+	<style name="MyRadioLeft.MyRadioRight">
+		<item name="android:background">@drawable/right_radio_background</item>
+		<item name="android:paddingRight">7dp</item>
+		<item name="android:paddingLeft">0dp</item>
+	</style>
+
+
+</resources>

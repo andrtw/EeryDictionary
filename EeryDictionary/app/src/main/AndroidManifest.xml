@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andrew.examsapp.eerydictionary" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/EeryTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainDrawerActivity"
+            android:theme="@style/EeryTheme" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.MainDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".WordActivity"
+            android:label="@string/title_activity_word"
+            android:launchMode="singleTop"
+            android:parentActivityName=".MainDrawerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.MainDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".EditWordActivity"
+            android:label="@string/title_activity_edit_word"
+            android:parentActivityName=".WordActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" > <!-- To hide the keyboard -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.WordActivity" />
+        </activity>
+        <activity
+            android:name=".MainDrawerActivity"
+            android:label="@string/title_activity_main_drawer"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".SendFeedbackActivity"
+            android:label="@string/title_activity_send_feedback"
+            android:parentActivityName=".MainDrawerActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.MainDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".OtherUserActivity"
+            android:label="@string/title_activity_other_user"
+            android:parentActivityName=".WordActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.WordActivity" />
+        </activity>
+        <activity
+            android:name=".user.MainUserActivity"
+            android:label="@string/app_name"
+            android:theme="@style/EeryTheme" >
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName=".MainDrawerActivity"
+            android:theme="@style/EeryTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.MainDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".user.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:parentActivityName=".MainDrawerActivity"
+            android:theme="@style/EeryTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.andrew.examsapp.eerydictionary.MainDrawerActivity" />
+        </activity>
+    </application>
+
+</manifest>

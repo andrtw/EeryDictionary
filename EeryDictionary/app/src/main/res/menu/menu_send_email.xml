@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context="com.andrew.examsapp.eerydictionary.SendFeedbackActivity">
+
+	<item
+		android:id="@+id/action_send"
+		android:icon="@drawable/ic_action_send_now"
+		android:orderInCategory="100"
+		android:title="Send feedback"
+		app:showAsAction="ifRoom"/>
+
+	<item
+		android:id="@+id/action_clear_message"
+		android:orderInCategory="200"
+		android:title="@string/action_clear_message_text"
+		app:showAsAction="never"/>
+
+</menu>

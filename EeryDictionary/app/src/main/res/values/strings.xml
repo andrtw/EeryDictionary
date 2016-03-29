@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Eery Dictionary</string>
+	<string name="word_hint_text">Word to lookup</string>
+	<string name="search_button_text">Search</string>
+	<string name="title_activity_add_new_word">Add New Word</string>
+	<string name="word_text">Word</string>
+	<string name="description_text">Description</string>
+	<string name="examples_text">Examples</string>
+	<string name="add_new_word_text">Add New Word</string>
+	<string name="title_activity_about">About</string>
+	<string name="title_activity_word">Word</string>
+	<string name="title_activity_edit_word">EditWordActivity</string>
+	<string name="edit_word_text">Edit word</string>
+	<string name="register_button_intent_text">Sign up</string>
+	<string name="login_button_text">Sign in!</string>
+	<string name="register_button_text">Sign up!</string>
+	<string name="reset_password_button_text">Reset password</string>
+	<string name="forgot_psw_button_text">Forgot your password?</string>
+	<string name="chg_psw_button_text">Change password</string>
+
+	<!-- Action texts -->
+	<string name="action_settings">Settings</string>
+	<string name="action_about_text">About</string>
+	<string name="action_add_new_word_text">Add a new word</string>
+	<string name="action_search_text">Search</string>
+	<string name="action_settings_text">Settings</string>
+	<string name="action_edit_text">Edit word</string>
+	<string name="action_change_psw_text">Change password</string>
+	<string name="action_logout_text">Logout</string>
+	<string name="action_view_profile_text">View profile</string>
+	<string name="action_clear_message_text">Delete message</string>
+
+
+	<!-- *** Slider navigation drawer menu strings *** -->
+	<string name="drawer_open">Open Navigation Drawer</string>
+	<string name="drawer_close">Close Navigation Drawer</string>
+	<!-- nav drawer menu items -->
+	<string-array name="nav_drawer_items">
+		<item>You</item>
+		<item>Home</item>
+		<item>Add new word</item>
+		<item><![CDATA[Help & Feedback]]></item>
+		<item>Settings</item>
+	</string-array>
+	<!-- nav drawer menu items icons -->
+	<string-array name="nav_drawer_icons">
+		<item>@drawable/ic_action_edit</item>
+		<item>@drawable/ic_action_new</item>
+		<item>@drawable/ic_action_new</item>
+		<item>@drawable/ic_action_edit</item>
+	</string-array>
+	<!-- content description -->
+	<string name="desc_list_item_icon">Item Icon</string>
+
+	<string name="action_reset_description_text">Reset description</string>
+	<string name="action_reset_examples_text">Reset examples</string>
+	<string name="title_activity_main_drawer">Navigation Drawer</string>
+
+	<string name="title_activity_send_feedback">Send your feedback</string>
+	<string name="logo_image_text">logo_image</string>
+	<string name="partial_user_text_s">\'s profile</string>
+	<string name="partial_user_text_no_s">\' profile</string>
+
+	<string-array name="help_feedback_items">
+		<item>Help</item>
+		<item>Feedback</item>
+	</string-array>
+	<string-array name="settings_items">
+		<item>Change password</item>
+		<item>Logout</item>
+		<item>About</item>
+	</string-array>
+
+
+	<string name="my_details_member">You are in since</string>
+	<string name="my_details_words">Your words</string>
+	<string name="my_details_email">E-mail</string>
+	<string name="other_details_member">Member since</string>
+	<string name="other_words">Words added</string>
+
+	<string-array name="my_details_items">
+		<item>You are in since</item>
+		<item>Your words</item>
+		<item>E-mail</item>
+	</string-array>
+	<string-array name="other_user_details_items">
+		<item>Member since</item>
+		<item>Words added</item>
+	</string-array>
+
+	<string name="title_activity_other_user">Check profile</string>
+	<string name="network_error_text">No connection</string>
+	<string name="no_words_found_text">No words were found.\nYou can add one by your own.</string>
+
+	<string name="sign_in_radio">Sign in</string>
+	<string name="sign_up_radio">Sign up</string>
+	<string name="title_activity_change_password">Change password</string>
+	<string name="username_edit_text_hint">Username</string>
+	<string name="password_edit_text_hint">Password</string>
+	<string name="email_edit_text_hint">E-mail</string>
+	<string name="new_password_edit_text_hint">New password</string>
+	<string name="feedback_edit_text_hint">Type in your feedback</string>
+	<string name="delete_feedback_message">Are you sure you want to delete your feedback?</string>
+	<string name="delete_feedback_positive">Yes</string>
+	<string name="delete_feedback_negative">No</string>
+	<string name="feedback_spinner_title">Select what you want to send</string>
+	<string name="feedback_type_edit_text_hint">Specify the type of feedback</string>
+	<string name="about_text">Eery Dictionary is an English dictionary where you can look up words, popular phrases, idioms and things related to English grammar.\n\n
+	For each element you\'ll find description and examples. Like the words which helped you and feel free to chip in to get better the words with a little description and examples by adding more and more.\n\n\n
+	Please add words only in English language, the others will be removed.</string>
+	<string name="added_by_text">"Added by: "</string>
+	<string-array name="feedback_spinner">
+		<item>Report error or bug</item>
+		<item>Suggestion to improve</item>
+		<item>Other&#8230;</item>
+	</string-array>
+	<string name="title_activity_help">Help</string>
+
+	<string name="hello_world">Hello world!</string>
+
+
+</resources>
