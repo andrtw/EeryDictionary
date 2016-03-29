@@ -6,7 +6,7 @@
 
 <p>Eery Dictionary is an English dictionary Android app. The user needs to be signed up to be able to fully use the app. Once logged in, he can start searching for words, idioms, common phrases and all about English grammar.</p>
 <p>Each word has a description and examples and everybody can improve the words in the dictionary by increasing the description and adding  more examples, or even by adding new words.</p>
-<p>The user can also like or dislike every word. Then features of reset and change password and a system feedback have been implemented.</p>
+<p>The user can also like or dislike every word. Then features of reset and change password and a feedback system have been implemented.</p>
 
 # How the app looks like
 
